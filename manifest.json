@@ -1,0 +1,14 @@
+{
+ "manifest_version":3,
+ "name":"Text Tool",
+ "version":"1.0",
+ "permissions": ["storage", "contextMenus"],
+ "background": {
+	"service_worker":"contextmenus.js"
+   },
+  "action": {
+	"default_popup": "main.html",
+	"default_title": "Thu thập và phân nhóm từ khóa"
+   },
+   "options_page": "options.html"
+}
